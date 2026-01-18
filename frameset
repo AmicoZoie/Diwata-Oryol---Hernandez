@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<title> Hernandez│Main Page│Diwata Oryol</title>
+</header>
+<frameset rows="15%, 85%">
+	<frame src="navbar.html" name="uno">
+  <frame src="home.html" name="dos">
+    </frameset>
+</frameset>
+</html>
+
