@@ -4,57 +4,60 @@
   <title>Hernandez│Home Page│Diwata Oryol</title>
 
   <style>
-  <link rel="stylesheet" href="styles.css">
-
+   <link rel="stylesheet" href="styles.css">
     .gren {
       background-color: #8EA48B;
       width: 90%;
+      max-width: 900px;
       border-radius: 25px;
-      padding: 15px;
+      padding: 10px;
       border: 3px solid #354c2b;
       box-shadow: 5px 5px 30px rgba(0,0,0,0.3);
-      margin: 0 auto 35px auto;
-      text-align: center;
+      margin: auto;
     }
+
     ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:#324D3E
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      background-color: #324D3E;
+      border-radius: 20px;
+      overflow: hidden;
+    }
 
-}
+    ul li {
+      margin: 0;
+    }
 
-ul li {
-  float: left;
-}
+    ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 15px 35px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
 
-ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 30px;
-  text-decoration: none;
-  transition: background-color 0.5s ease, transform 0.5s ease;
-}
-
-ul li a:hover {
-  background-color: #2B4336;
-  transform: scale(1.2);
-}
+    ul li a:hover {
+      background-color: #2B4336;
+      transform: scale(1.1);
+    }
 
   </style>
 </head>
 
 <body class="storybg">
 
-  <img src="https://pbs.twimg.com/media/EZmez-6U8AEAoks.jpg" class="main-img">
-
   <div class="gren">
+      <h2 align="center"> Start Reading Now!</h2>
     <ul>
-      <li><a href="start.html" target="dos">Beginning</li>
-      <li><a href="middle.html" target="dos">Middle</li>
-      <li><a href="ending.html" target="dos">Ending</li>
+      <li><a href="start.html" target="dos">Beginning</a></li>
+      <li><a href="middle.html" target="dos">Middle</a></li>
+      <li><a href="ending.html" target="dos">Ending</a></li>
     </ul>
   </div>
 
