@@ -32,3 +32,12 @@ body {
    font-weight: bold;
    color: white; 
   }
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  transition: background-color 0.5s ease, transform 0.5s ease;
+  font-size: 30px; 
+}
