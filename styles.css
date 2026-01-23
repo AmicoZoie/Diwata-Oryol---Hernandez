@@ -8,6 +8,9 @@
       font-family: Arial, sans-serif;
     }
     .gren {
+      position: sticky;
+      top: 10px;
+      z-index: 10;
       background-color: #BEDFBB;
       width: 90%;
       max-width: 900px;
