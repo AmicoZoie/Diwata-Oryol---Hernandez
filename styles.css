@@ -26,3 +26,8 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+  .white {
+   align: center;
+   font-weight: bold;
+   color: white; 
+  }
